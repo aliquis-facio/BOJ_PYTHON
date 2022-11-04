@@ -10,6 +10,7 @@ def recursive_func(n):
 
     recursive_func(n//3)
 
+
 N = 27
 # N = int(input())
 

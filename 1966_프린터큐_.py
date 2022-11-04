@@ -7,15 +7,12 @@ class Elem:
         self.order = order
         self.importance = importance
 
-
+def solve(arr, )
 T = int(input())
 
 for i in range(T):
     N, M = map(int, input().split())
 
-    lst = list()
-    importance_set = set()
+    importance = map(int, input().split())
 
-    for importance, order in zip(map(int, input().split()), range(N)):
-        lst.insert(0, Elem(order, importance))
-        importance_set.add(importance)
+    solve(importance, M)
